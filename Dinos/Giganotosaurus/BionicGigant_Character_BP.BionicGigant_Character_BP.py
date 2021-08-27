@@ -1,0 +1,13 @@
+import sys,sce
+class BionicGigant_Character_BP(sce.BaseCreature):
+   def __init__(self):
+       super().__init__(self)
+       name = 'Tek Giganotosaurus'
+       blueprintPath = '/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'
+       fullStatsRaw = [[80000, 0.0005, 0.002, -63000, 0], [400, 0.0005, 0.01, 0, 0], [10000, 0.06, 0, 0, 0], [150, 0.0025, 0.025, 0, 0], [4000, 0.0025, 0.025, 0, 0], None, None, [700, 0.01, 0.01, 0, 0], [1, 0.05, 0.05, -0.8, 0], [1, 0, 0.0031, 0, 0], None, None]
+       immobilizedBy = ['Large Bear Trap']
+       breeding = {'gestationTime': 0, 'incubationTime': 8999.28006, 'eggTempMin': 24, 'eggTempMax': 28, 'maturationTime': 878348.704, 'matingCooldownMin': 64800, 'matingCooldownMax': 172800}
+       colors = [{'name': 'Body Main', 'colors': ['Black', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Green', 'Dino Dark Red', 'Dino Darker Grey', 'Dino Ligh Red', 'Dino Light Green', 'Dino Medium Green', 'DragonGreen2', 'Light Green', 'Light Grey', 'Light Red', 'NearWhite', 'Red']}, {'name': 'UnderBelly', 'colors': ['Black', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Green', 'Dino Dark Red', 'Dino Darker Grey', 'Dino Ligh Red', 'Dino Light Green', 'Dino Medium Green', 'DragonGreen2', 'Light Green', 'Light Grey', 'Light Red', 'NearWhite', 'Red']}, {'name': 'Main Highlights', 'colors': ['Black', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Green', 'Dino Dark Red', 'Dino Darker Grey', 'Dino Ligh Red', 'Dino Light Green', 'Dino Medium Green', 'DragonGreen2', 'Light Green', 'Light Grey', 'Light Red', 'NearWhite', 'Red']}, {'name': 'Highlights', 'colors': ['Black', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Green', 'Dino Dark Red', 'Dino Darker Grey', 'Dino Ligh Red', 'Dino Light Green', 'Dino Medium Green', 'DragonGreen2', 'Light Green', 'Light Grey', 'Light Red', 'NearWhite', 'Red']}, {'name': 'Head Main', 'colors': ['Black', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Green', 'Dino Dark Red', 'Dino Darker Grey', 'Dino Ligh Red', 'Dino Light Green', 'Dino Medium Green', 'DragonGreen2', 'Light Green', 'Light Grey', 'Light Red', 'NearWhite', 'Red']}, {'name': 'Emissive', 'colors': ['Dino Albino', 'Dino Light Blue', 'Dino Light Purple', 'Light Green', 'Light Orange', 'Light Red', 'Light Yellow']}]
+       taming = {'nonViolent': False, 'violent': True, 'tamingIneffectiveness': 1.25, 'affinityNeeded0': 5000, 'affinityIncreasePL': 160, 'torporDepletionPS0': 120, 'foodConsumptionBase': 0.002314, 'foodConsumptionMult': 160.0563}
+       TamedBaseHealthMultiplier = 1
+       displayedStats = 927

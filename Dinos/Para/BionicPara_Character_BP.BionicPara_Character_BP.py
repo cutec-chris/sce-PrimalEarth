@@ -1,0 +1,14 @@
+import sys,sce
+class BionicPara_Character_BP(sce.Tek Creatures):
+   def __init__(self):
+       super().__init__(self)
+       name = 'Tek Parasaur'
+       blueprintPath = '/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'
+       fullStatsRaw = [[200, 0.2, 0.27, 0.5, 0], [450, 0.1, 0.1, 0, 0], [150, 0.06, 0, 0.5, 0], [150, 0.1, 0.1, 0, 0], [1500, 0.1, 0.1, 0, 0], None, None, [480, 0.02, 0.04, 0, 0], [1, 0.05, 0.1, 0.5, 0.4], [1, 0, 0.01, 0.67, 0], None, None]
+       immobilizedBy = ['Bola', 'Bear Trap', 'Large Bear Trap', 'Plant Species Y']
+       breeding = {'gestationTime': 0, 'incubationTime': 5142.44575, 'eggTempMin': 24, 'eggTempMax': 28, 'maturationTime': 95238.0952, 'matingCooldownMin': 64800, 'matingCooldownMax': 172800}
+       colors = [{'name': 'Internals', 'colors': ['Black', 'Cyan', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Blue', 'Dino Dark Green', 'Dino Darker Grey', 'Dino Deep Blue', 'Dino Light Blue', 'Dino Light Yellow', 'Dino Medium Blue', 'DragonGreen0', 'DragonGreen3', 'Light Grey', 'NearWhite', 'WyvernBlue0', 'WyvernBlue1']}, {'name': 'Limbs', 'colors': ['Black', 'Cyan', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Blue', 'Dino Dark Green', 'Dino Darker Grey', 'Dino Deep Blue', 'Dino Light Blue', 'Dino Light Yellow', 'Dino Medium Blue', 'DragonGreen0', 'DragonGreen3', 'Light Grey', 'NearWhite', 'WyvernBlue0', 'WyvernBlue1']}, {'name': 'Highlights and Neck', 'colors': ['Black', 'Cyan', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Blue', 'Dino Dark Green', 'Dino Darker Grey', 'Dino Deep Blue', 'Dino Light Blue', 'Dino Light Yellow', 'Dino Medium Blue', 'DragonGreen0', 'DragonGreen3', 'Light Grey', 'NearWhite', 'WyvernBlue0', 'WyvernBlue1']}, {'name': 'Head', 'colors': ['Black', 'Cyan', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Blue', 'Dino Dark Green', 'Dino Darker Grey', 'Dino Deep Blue', 'Dino Light Blue', 'Dino Light Yellow', 'Dino Medium Blue', 'DragonGreen0', 'DragonGreen3', 'Light Grey', 'NearWhite', 'WyvernBlue0', 'WyvernBlue1']}, {'name': 'Body Main', 'colors': ['Black', 'Cyan', 'Dark Green', 'Dark Grey', 'Dino Albino', 'Dino Dark Blue', 'Dino Dark Green', 'Dino Darker Grey', 'Dino Deep Blue', 'Dino Light Blue', 'Dino Light Yellow', 'Dino Medium Blue', 'DragonGreen0', 'DragonGreen3', 'Light Grey', 'NearWhite', 'WyvernBlue0', 'WyvernBlue1']}, {'name': 'Emissive', 'colors': ['Dino Albino', 'Dino Light Blue', 'Dino Light Purple', 'Light Green', 'Light Orange', 'Light Red', 'Light Yellow']}]
+       taming = {'nonViolent': False, 'violent': True, 'tamingIneffectiveness': 0.4, 'affinityNeeded0': 1500, 'affinityIncreasePL': 75, 'torporDepletionPS0': 0.3, 'foodConsumptionBase': 0.001929, 'foodConsumptionMult': 864.0056}
+       boneDamageAdjusters = {'c_jaw': 2, 'c_head': 2}
+       TamedBaseHealthMultiplier = 1
+       displayedStats = 927
