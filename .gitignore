@@ -129,3 +129,7 @@ dmypy.json
 .pyre/
 *.glb
 *.blend1
+orthogonal1.png
+orthogonal2.png
+orthogonal1.jpg
+orthogonal2.jpg
