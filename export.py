@@ -6,5 +6,6 @@ ExportObject('Plants/Tropic1/trop_leav 4.blend','Collection 1','Plants/Tropic1/t
 ExportObject('Plants/Tropic2/Tropic2.blend','Collection','Plants/Tropic2/tropic2',lod=[0,10],lod_ligthing=1500)
 ExportObject('Plants/Tropic3/Tropic3.blend','Collection','Plants/Tropic3/tropic3',lod=[0,10])
 ExportObject('Plants/Tropic4/Tropic4.blend','Collection','Plants/Tropic4/tropic4',lod=[0,10])
+ExportObject('Plants/Tree1/Tree1.blend','Collection','Plants/Tree1/tree1',lod=[0,10])
 
 ExportObject('Dinos/Dimorphodon/Dimorphodon.blend','Dimorphodon','Dinos/Dimorphodon/dimorphodon',lod=[10],export_image_format='JPEG')
